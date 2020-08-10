@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background-color: rgb(143, 235, 82);
+}
+
+.container {
+    max-width:1000px ;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0px 1px 13px 1px rgba(0, 0, 0, 0.294);
+}
+
+.nav-bar {
+    overflow: hidden;
+    position: relative;
+}
+
+.nav-bar > div {
+    display: inline-block;
+}
+
+.nav-bar .links {
+float: right;
+}
+
+.nav-bar  a {
+    text-decoration: none;
+}
+
+.nav-bar .logo a {
+color: #3e8311;
+font-size: 20px;
+font-weight: bold;
+}
+
+.nav-bar .links > a {
+    color: #000;
+    padding: 15px;
+}
+
+.nav-bar .links > a:first-child {
+padding-left: 0px;
+} 
+
+.nav-bar .links > a:last-child {
+padding-right: 0px;
+} 
+
+.nav-bar a i.icon {
+    display: none;
+}
+
+@media screen and (max-width: 425px) {
+.container {
+    max-width: 480px;
+}
+
+.nav-bar .logo a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar .links {
+    margin-top: 10px;
+    float: none;
+    background-color: #3e8311;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.nav-bar .links a {
+    display: block;
+    padding: 14px 0px;
+    color: #fff;
+}
+
+.nav-bar .links a:hover {
+    background-color: #8ddd57;
+    color: #3e8311;
+}
+
+.nav-bar a i.icon {
+  color: #3e8311;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+}
